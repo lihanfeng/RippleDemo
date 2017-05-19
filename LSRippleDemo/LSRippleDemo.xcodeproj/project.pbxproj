@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A395E4641ECEBE2C00DFAC5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A395E4631ECEBE2C00DFAC5A /* main.m */; };
+		A395E4671ECEBE2C00DFAC5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A395E4661ECEBE2C00DFAC5A /* AppDelegate.m */; };
+		A395E46A1ECEBE2C00DFAC5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A395E4691ECEBE2C00DFAC5A /* ViewController.m */; };
+		A395E46D1ECEBE2C00DFAC5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A395E46B1ECEBE2C00DFAC5A /* Main.storyboard */; };
+		A395E46F1ECEBE2C00DFAC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A395E46E1ECEBE2C00DFAC5A /* Assets.xcassets */; };
+		A395E4721ECEBE2C00DFAC5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A395E4701ECEBE2C00DFAC5A /* LaunchScreen.storyboard */; };
+		A395E47E1ECEBE5800DFAC5A /* LSRippleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A395E47B1ECEBE5800DFAC5A /* LSRippleButton.m */; };
+		A395E47F1ECEBE5800DFAC5A /* LSRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A395E47D1ECEBE5800DFAC5A /* LSRippleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A395E45F1ECEBE2C00DFAC5A /* LSRippleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSRippleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A395E4631ECEBE2C00DFAC5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A395E4651ECEBE2C00DFAC5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A395E4661ECEBE2C00DFAC5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A395E4681ECEBE2C00DFAC5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A395E4691ECEBE2C00DFAC5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A395E46C1ECEBE2C00DFAC5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A395E46E1ECEBE2C00DFAC5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A395E4711ECEBE2C00DFAC5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A395E4731ECEBE2C00DFAC5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A395E47A1ECEBE5800DFAC5A /* LSRippleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRippleButton.h; sourceTree = "<group>"; };
+		A395E47B1ECEBE5800DFAC5A /* LSRippleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSRippleButton.m; sourceTree = "<group>"; };
+		A395E47C1ECEBE5800DFAC5A /* LSRippleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRippleView.h; sourceTree = "<group>"; };
+		A395E47D1ECEBE5800DFAC5A /* LSRippleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSRippleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A395E45C1ECEBE2C00DFAC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A395E4561ECEBE2C00DFAC5A = {
+			isa = PBXGroup;
+			children = (
+				A395E4791ECEBE5800DFAC5A /* LSRippleView */,
+				A395E4611ECEBE2C00DFAC5A /* LSRippleDemo */,
+				A395E4601ECEBE2C00DFAC5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A395E4601ECEBE2C00DFAC5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A395E45F1ECEBE2C00DFAC5A /* LSRippleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A395E4611ECEBE2C00DFAC5A /* LSRippleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A395E4651ECEBE2C00DFAC5A /* AppDelegate.h */,
+				A395E4661ECEBE2C00DFAC5A /* AppDelegate.m */,
+				A395E4681ECEBE2C00DFAC5A /* ViewController.h */,
+				A395E4691ECEBE2C00DFAC5A /* ViewController.m */,
+				A395E46B1ECEBE2C00DFAC5A /* Main.storyboard */,
+				A395E46E1ECEBE2C00DFAC5A /* Assets.xcassets */,
+				A395E4701ECEBE2C00DFAC5A /* LaunchScreen.storyboard */,
+				A395E4731ECEBE2C00DFAC5A /* Info.plist */,
+				A395E4621ECEBE2C00DFAC5A /* Supporting Files */,
+			);
+			path = LSRippleDemo;
+			sourceTree = "<group>";
+		};
+		A395E4621ECEBE2C00DFAC5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A395E4631ECEBE2C00DFAC5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A395E4791ECEBE5800DFAC5A /* LSRippleView */ = {
+			isa = PBXGroup;
+			children = (
+				A395E47A1ECEBE5800DFAC5A /* LSRippleButton.h */,
+				A395E47B1ECEBE5800DFAC5A /* LSRippleButton.m */,
+				A395E47C1ECEBE5800DFAC5A /* LSRippleView.h */,
+				A395E47D1ECEBE5800DFAC5A /* LSRippleView.m */,
+			);
+			path = LSRippleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A395E45E1ECEBE2C00DFAC5A /* LSRippleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A395E4761ECEBE2C00DFAC5A /* Build configuration list for PBXNativeTarget "LSRippleDemo" */;
+			buildPhases = (
+				A395E45B1ECEBE2C00DFAC5A /* Sources */,
+				A395E45C1ECEBE2C00DFAC5A /* Frameworks */,
+				A395E45D1ECEBE2C00DFAC5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSRippleDemo;
+			productName = LSRippleDemo;
+			productReference = A395E45F1ECEBE2C00DFAC5A /* LSRippleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A395E4571ECEBE2C00DFAC5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hanfeng.li;
+				TargetAttributes = {
+					A395E45E1ECEBE2C00DFAC5A = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A395E45A1ECEBE2C00DFAC5A /* Build configuration list for PBXProject "LSRippleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A395E4561ECEBE2C00DFAC5A;
+			productRefGroup = A395E4601ECEBE2C00DFAC5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A395E45E1ECEBE2C00DFAC5A /* LSRippleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A395E45D1ECEBE2C00DFAC5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A395E4721ECEBE2C00DFAC5A /* LaunchScreen.storyboard in Resources */,
+				A395E46F1ECEBE2C00DFAC5A /* Assets.xcassets in Resources */,
+				A395E46D1ECEBE2C00DFAC5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A395E45B1ECEBE2C00DFAC5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A395E46A1ECEBE2C00DFAC5A /* ViewController.m in Sources */,
+				A395E4671ECEBE2C00DFAC5A /* AppDelegate.m in Sources */,
+				A395E47F1ECEBE5800DFAC5A /* LSRippleView.m in Sources */,
+				A395E47E1ECEBE5800DFAC5A /* LSRippleButton.m in Sources */,
+				A395E4641ECEBE2C00DFAC5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A395E46B1ECEBE2C00DFAC5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A395E46C1ECEBE2C00DFAC5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A395E4701ECEBE2C00DFAC5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A395E4711ECEBE2C00DFAC5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A395E4741ECEBE2C00DFAC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A395E4751ECEBE2C00DFAC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A395E4771ECEBE2C00DFAC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LSRippleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifesense.LSRippleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A395E4781ECEBE2C00DFAC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LSRippleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifesense.LSRippleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A395E45A1ECEBE2C00DFAC5A /* Build configuration list for PBXProject "LSRippleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A395E4741ECEBE2C00DFAC5A /* Debug */,
+				A395E4751ECEBE2C00DFAC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A395E4761ECEBE2C00DFAC5A /* Build configuration list for PBXNativeTarget "LSRippleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A395E4771ECEBE2C00DFAC5A /* Debug */,
+				A395E4781ECEBE2C00DFAC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A395E4571ECEBE2C00DFAC5A /* Project object */;
+}
